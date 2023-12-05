@@ -27,7 +27,7 @@ st.set_page_config(
 # GBQ Credentials
 # Credentials
 home = str(Path.home())
-credential_path = home + r'\Waternlife\05_Business Intelligence - General\06_BI Team Documents\09_Important docs\01_API KEYS - PROTECTED\giovanni_keys\danish-endurance-analytics-3cc957295117.json'
+credential_path = home + r'XXX'
 
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = credential_path
 credentials = service_account.Credentials.from_service_account_file(
@@ -182,7 +182,7 @@ with st.sidebar:
 
 
 # instatianting the chat model
-chat = ChatOpenAI(model_name='gpt-3.5-turbo-16k', temperature=0.5, openai_api_key="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")
+chat = ChatOpenAI(model_name='gpt-3.5-turbo-16k', temperature=0.5, openai_api_key="xxx")
 
 #System Message
 if not any(isinstance(x, SystemMessage) for x in st.session_state.messages):
