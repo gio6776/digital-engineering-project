@@ -4,3 +4,9 @@ streamlit
 streamlit-chat
 tiktoken
 python-dotenv
+google-auth
+pandas
+numpy
+pandas_gbq
+csv
+pathlib
